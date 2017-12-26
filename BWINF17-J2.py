@@ -1,10 +1,9 @@
-import numpy as np
 import numpy
 
 width, height = input().split()
 width, height = int(width), int(height)
 
-field = np.zeros((height, width), int) # leeres array bestehend aus Nullen in der richtigen Größe
+field = numpy.zeros((height, width), int) # leeres array bestehend aus Nullen in der richtigen Größe
 print(" ")  # deutlichere Trennung von Eingabe und Ausgabe
 
 anzahl = int(input())
